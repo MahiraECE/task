@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sample</title>
+  <!-- SEO Meta Tags-->
+  <meta name="description" content="Cartzilla - Bootstrap E-commerce Template">
+  <meta name="keywords" content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap 4, html5, css3, jquery, js, gallery, slider, touch, creative, clean">
+  <meta name="author" content="Createx Studio">
+  <!-- Viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/d3eec78d8b.js" crossorigin="anonymous"></script>
+  <!-- Favicon and Touch Icons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" color="#fe6a6a" href="safari-pinned-tab.svg">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Vendor Styles including: Font Icons, Plugins, etc.-->
+  <link rel="stylesheet" media="screen" href="static/css/vendor.min.css">
+  <!-- Main Theme Styles + Bootstrap-->
+  <link rel="stylesheet" media="screen" id="main-styles" href="static/css/theme.min.css">
+  <style>
+    .divbox{
+      margin-top:10px;
+      height:75px;
+      width: 150px;
+ 
+    }
+        .centered {
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ .containersample{
+   margin-left:100px;
+   margin-top:100px;
+   width:500px;
+   height:100px;
+ }
+ .sample{
+   margin-top:0%;
+   padding: 0%;
+ }
+ 
+     </style>
+</head>
+
+<body>
+  <header style="margin-bottom: 0%;">
+    <!-- Topbar-->
+   
+    <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+    <div class="navbar-sticky bg-light">
+      <div class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand d-none d-sm-block mr-3 flex-shrink-0" href="index.html" style="min-width: 7rem;"><img width="142" src="https://www.myrewardsinternational.com/wp-content/themes/myrewardsinternational/assets/dist/image/logo-gif.gif" alt="Cartzilla"/></a><a class="navbar-brand d-sm-none mr-2" href="index.html" style="min-width: 4.625rem;"><img width="74" src="https://www.myrewardsinternational.com/wp-content/themes/myrewardsinternational/assets/dist/image/logo-gif.gif" /></a>
+            
+          <div class="input-group-overlay d-none d-lg-flex mx-4">
+            <input class="form-control appended-form-control" type="text" placeholder="Search for products">
+            <div class="input-group-append-overlay"><span class="input-group-text"><i class="czi-search"></i></span></div>
+          </div>
+          <div class="navbar-toolbar d-flex flex-shrink-0 align-items-center">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button><a class="navbar-tool navbar-stuck-toggler" href="#"><span class="navbar-tool-tooltip">Expand menu</span>
+              <!-- <div class="navbar-tool-icon-box"><i class="navbar-tool-icon czi-menu"></i></div></a><a class="navbar-tool d-none d-lg-flex" href="account-wishlist.html"><span class="navbar-tool-tooltip">Wishlist</span> -->
+              <div class="navbar-tool-icon-box"><i class="navbar-tool-icon czi-heart"></i></div></a><a class="navbar-tool ml-1 ml-lg-0 mr-n1 mr-lg-2" href="#signin-modal" data-toggle="modal">
+                <button class="btn btn-outline-success" type="submit">
+                  <a href="{% url 'register' %}">Signup for Free</a>
+                </button>
+              <div class="navbar-tool-icon-box">
+                <!-- <i class="navbar-tool-icon czi-user"></i> -->
+              </div>
+              <div class="navbar-tool-text ml-n3">
+                <button class="btn btn-outline-success" type="submit">
+                  <a href="{% url 'getDetails' %}">LogIn</a>
+                  
+                </button>
+              </div>
+            </a>
+            <!-- <div class="navbar-tool dropdown ml-3"><a class="navbar-tool-icon-box bg-secondary dropdown-toggle" href="shop-cart.html"><span class="navbar-tool-label">4</span><i class="navbar-tool-icon czi-cart"></i></a><a class="navbar-tool-text" href="shop-cart.html"><small>My Cart</small>$265.00</a> -->
+              <!-- Cart dropdown-->
+          
+        </div>
+      </div>
+
+     
+            
+              
+          </div>
+        </section>
+        </div>
+      </div>
+    </div>
+    <section>
+      
+      <ul class="navbar-nav">
+       
+        <p class="nav-link dropdown-toggle container" href="#" data-toggle="dropdown">
+          Popular Categories
+          
+         </p>
+      </ul>
+ 
+  
+    <div class="sample container">
+      <img src="./static/img/home/marketplace-hero.jpg" alt="Snow" style="width:100%;">
+     
+      <div class="centered">Centered</div>
+    </div>
+  </header>
+ 
+  </div>
+</body>
+</html>
